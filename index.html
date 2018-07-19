@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Car customizer</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/second.css">
+	<meta name="vievport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+<div class="header">
+</div>
+  <section>
+ 	<div class="container">
+ 		<div class="auto">
+ 			<div class="car">
+ 			  <img src="img/mini_class.png">
+ 				<div class="eval" id="e1">
+ 					<span>Рассчитать стоимость</span>
+ 					<div class="triangle" id="tr1"></div>
+ 				</div>
+ 			</div>
+ 			<div class="car">
+ 				<img src="img/middle_class.png">
+ 				<div class="eval" id="e2">
+ 					<span>Рассчитать стоимость</span>
+ 					<div class="triangle" id="tr2"></div>
+ 				</div>
+ 			</div>
+ 			<div class="car">
+ 				<img src="img/premium_class.png">
+ 				<div class="eval" id="e3">
+ 					<span>Рассчитать стоимость</span>
+ 					<div class="triangle"  id="tr3"></div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+
+<section>
+	<div class="container">
+		<div class="clearfix">
+			<div class="main">
+				<div id="main_image">
+					<img src="img/стандарт++.jpg">
+				</div>
+				<div class="images">
+					<div class="image_icons" id="icon1">
+					</div>
+					<div class="image_icons" id="icon2">
+					</div>
+					<div class="image_icons" id="icon3">
+					</div>
+					<div class="image_icons" id="icon4">
+					</div>
+					<div class="image_icons" id="icon5">
+					</div>
+					<div class="image_icons" id="icon6">
+					</div>
+					<div class="image_icons" id="icon7">
+					</div>
+					<div class="image_icons" id="icon8">
+					</div>
+				</div>
+					<div class="cost">
+					  <p>Цена:</p>
+					</div>
+				<div class="cost-info">
+						<div class="info">
+							Материалы + работа <span id="sum">7000руб.</span>
+						</div>
+						<div class="call_me">
+							<p>Позвоните мне<p>
+						</div>
+					</div>
+				</div>
+			<div class="sidebar">
+				<ul class="menu" id="menu">
+					<li id="menu_1" onclick="toggleClass(this)">минимальный</li>
+					<li id="menu_2" onclick="toggleClass(this)">стандарт</li>
+					<li id="menu_3" onclick="toggleClass(this)">стандарт+</li>
+					<li id="menu_4" class="select" onclick="toggleClass(this)">стандарт++</li>
+					<li id="menu_5" onclick="toggleClass(this)">стандарт+++</li>
+					<li id="menu_6" onclick="toggleClass(this)">целиком</li>
+					<li id="drop_list" onclick="show()">
+						частями 
+						</li>
+						<ul class="drop" id="drop">
+							<li id="menu_7" onclick="toggleClass2(this)">оптика</li>
+							<li id="menu_8" onclick="toggleClass2(this)">пороги внутренние</li>
+							<li id="menu_9" onclick="toggleClass2(this)">пороги наружные</li>
+							<li id="menu_10" onclick="toggleClass2(this)">двери(4шт)</li>
+							<li id="menu_11" onclick="toggleClass2(this)">задние крылья</li>
+							<li id="menu_12" onclick="toggleClass2(this)">капот</li>
+							<li id="menu_13" onclick="toggleClass2(this)">передний бампер</li>
+							<li id="menu_14" onclick="toggleClass2(this)">задний бампер</li>
+						</ul>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+<script src="js/main.js" defer></script>
+<script src="js/secondary.js" defer></script>
+</body>
+</html>
