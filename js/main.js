@@ -5,7 +5,7 @@ d.getElementById('e1').onclick = function eval1(){
 	d.getElementById('tr1').style.opacity = 1;
 	d.getElementById('tr2').style.opacity = 0;
 	d.getElementById('tr3').style.opacity = 0;
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/стандарт++.jpg">`;
+	image.src = "img/ситроен/стандарт++.jpg";
 	sideBar1();
 }
 
@@ -13,7 +13,7 @@ d.getElementById('e2').onclick = function eval2(){
 	d.getElementById('tr2').style.opacity = 1;
 	d.getElementById('tr1').style.opacity = 0;
 	d.getElementById('tr3').style.opacity = 0;
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/стандарт++.jpg">`;
+	image.src = "img/мазда/стандарт++.jpg";
 	sideBar2();
 }
 
@@ -21,7 +21,7 @@ d.getElementById('e3').onclick = function eval3(){
 	d.getElementById('tr3').style.opacity = 1;
 	d.getElementById('tr2').style.opacity = 0;
 	d.getElementById('tr1').style.opacity = 0;
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/стандарт++.jpg">`;
+	image.src = "img/мерседес/стандарт++.jpg";
 	sideBar3();
 }
 

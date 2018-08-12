@@ -1,71 +1,73 @@
+var image = document.getElementById('main_image');
+
 function sideBar1(){
 d.getElementById('menu_1').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/минимальный.jpg">`;
+	image.src = "img/ситроен/минимальный.jpg";
 	minimal();
 	}
 
 d.getElementById('menu_2').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/стандарт.jpg">`;
+	image.src = "img/ситроен/стандарт.jpg";
 	standart();
 	}
 
 d.getElementById('menu_3').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/стандарт+.jpg">`;
+	image.src = "img/ситроен/стандарт+.jpg";
 	standart_S();
 	}
 
 d.getElementById('menu_4').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/стандарт++.jpg">`;
+	image.src = "img/ситроен/стандарт++.jpg";
 	standart_SS();
 	}	
 
 d.getElementById('menu_5').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/стандарт+++.jpg">`;
+	image.src = "img/ситроен/стандарт+++.jpg";
 	standart_SSS();
 	}	
 
 d.getElementById('menu_6').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/целиком.jpg">`;
+	image.src = "img/ситроен/целиком.jpg";
 	standart_SSS();
 	}
 
 d.getElementById('menu_7').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/оптика.jpg">`;
+	image.src = "img/ситроен/оптика.jpg";
 	optic();
 	}
 
 d.getElementById('menu_8').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/пороги-внутренние.jpg">`;
+	image.src = "img/ситроен/пороги-внутренние.jpg";
 	thresholdsIn();
 	}
 
 d.getElementById('menu_9').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/пороги-наружние.jpg">`;
+	image.src = "img/ситроен/пороги-наружние.jpg";
 	thresholdsOut();
 	}
 
 d.getElementById('menu_10').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/двери.jpg">`;
+	image.src = "img/ситроен/двери.jpg";
 	door();
 	}
 
 d.getElementById('menu_11').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/задние-крылья.jpg">`;
+	image.src = "img/ситроен/задние-крылья.jpg";
 	wing();
 	}	
 
 d.getElementById('menu_12').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/капот.jpg">`;
+	image.src = "img/ситроен/капот.jpg";
 	capot();
 	}	
 
 d.getElementById('menu_13').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/передний-бампер.jpg">`;
+	image.src = "img/ситроен/передний-бампер.jpg";
 	bumperF();
 	}
 
 d.getElementById('menu_14').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/ситроен/задний-бампер.jpg">`;
+	image.src = "img/ситроен/задний-бампер.jpg";
 	bumperB();
 	}	
 };
@@ -73,72 +75,72 @@ d.getElementById('menu_14').onmouseover = function(){
 
 function sideBar2(){
 d.getElementById('menu_1').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/минимальный.jpg">`;
+	image.src = "img/мазда/минимальный.jpg";
 	minimal();
 	}
 
 d.getElementById('menu_2').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/стандарт.jpg">`;
+	image.src = "img/мазда/стандарт.jpg";
 	standart();
 	}
 
 d.getElementById('menu_3').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/стандарт+.jpg">`;
+	image.src = "img/мазда/стандарт+.jpg";
 	standart_S();
 	}
 
 d.getElementById('menu_4').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/стандарт++.jpg">`;
+	image.src = "img/мазда/стандарт++.jpg";
 	standart_SS();
 	}	
 
 d.getElementById('menu_5').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/стандарт+++.jpg">`;
+	image.src = "img/мазда/стандарт+++.jpg";
 	standart_SSS();
 	}	
 
 d.getElementById('menu_6').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/целиком.jpg">`;
+	image.src = "img/мазда/целиком.jpg";
 	standart_SSS();
 	}
 
 d.getElementById('menu_7').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/оптика.jpg">`;
+	image.src = "img/мазда/оптика.jpg";
 	optic();
 	}
 
 d.getElementById('menu_8').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/пороги-внутренние.jpg">`;
+	image.src = "img/мазда/пороги-внутренние.jpg";
 	thresholdsIn();
 	}
 
 d.getElementById('menu_9').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/пороги-наружние.jpg">`;
+	image.src = "img/мазда/пороги-наружние.jpg";
 	thresholdsOut();
 	}
 
 d.getElementById('menu_10').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/двери.jpg">`;
+	image.src = "img/мазда/двери.jpg";
 	door();
 	}
 
 d.getElementById('menu_11').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/заднее-крыло.jpg">`;
+	image.src = "img/мазда/заднее-крыло.jpg";
 	wing();
 	}	
 
 d.getElementById('menu_12').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/капот.jpg">`;
+	image.src = "img/мазда/капот.jpg";
 	capot();
 	}	
 
 d.getElementById('menu_13').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/передний-бампер.jpg">`;
+	image.src = "img/мазда/передний-бампер.jpg";
 	bumperF();
 	}
 
 d.getElementById('menu_14').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мазда/задний-бампер.jpg">`;
+	image.src = "img/мазда/задний-бампер.jpg";
 	bumperB();
 	}
 };
@@ -146,72 +148,72 @@ d.getElementById('menu_14').onmouseover = function(){
 
 function sideBar3(){
 d.getElementById('menu_1').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/минимальный.jpg">`;
+	image.src = "img/мерседес/минимальный.jpg";
 	minimal();
 	}
 
 d.getElementById('menu_2').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/стандарт.jpg">`;
+	image.src = "img/мерседес/стандарт.jpg";
 	standart();
 	}
 
 d.getElementById('menu_3').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/стандарт+.jpg">`;
+	image.src = "img/мерседес/стандарт+.jpg";
 	standart_S();
 	}
 
 d.getElementById('menu_4').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/стандарт++.jpg">`;
+	image.src = "img/мерседес/стандарт++.jpg";
 	standart_SS();
 	}	
 
 d.getElementById('menu_5').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/стандарт+++.jpg">`;
+	image.src = "img/мерседес/стандарт+++.jpg";
 	standart_SSS();
 	}	
 
 d.getElementById('menu_6').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/целиком.jpg">`;
+	image.src = "img/мерседес/целиком.jpg";
 	standart_SSS();
 	}
 
 d.getElementById('menu_7').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/оптика.jpg">`;
+	image.src = "img/мерседес/оптика.jpg";
 	optic();
 	}
 
 d.getElementById('menu_8').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/пороги-внутренние.jpg">`;
+	image.src = "img/мерседес/пороги-внутренние.jpg";
 	thresholdsIn();
 	}
 
 d.getElementById('menu_9').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/пороги-наружние.jpg">`;
+	image.src = "img/мерседес/пороги-наружние.jpg";
 	thresholdsOut();
 	}
 
 d.getElementById('menu_10').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/двери.jpg">`;
+	image.src = "img/мерседес/двери.jpg";
 	door();
 	}
 
 d.getElementById('menu_11').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/задние-крылья.jpg">`;
+	image.src = "img/мерседес/задние-крылья.jpg";
 	wing();
 	}	
 
 d.getElementById('menu_12').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/капот.jpg">`;
+	image.src = "img/мерседес/капот.jpg";
 	capot();
 	}	
 
 d.getElementById('menu_13').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/передний-бампер.jpg">`;
+	image.src = "img/мерседес/передний-бампер.jpg";
 	bumperF();
 	}
 
 d.getElementById('menu_14').onmouseover = function(){
-	d.getElementById('main_image').innerHTML = `<img src="img/мерседес/задний-бампер.jpg">`;
+	image.src = "img/мерседес/задний-бампер.jpg";
 	bumperB();
 	}
 };
